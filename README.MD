@@ -5,7 +5,7 @@ The official website of Valencia Tech Club
 ## Contributors
 
 - Chisa Fukutome | Project Lead
-- Justine Parades | Contributor
+- Justine Paredes | Contributor
 - Aaron Nguyen | Contributor
 
 ## Installation
