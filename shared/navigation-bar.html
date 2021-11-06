@@ -1,1 +1,75 @@
-<nav class="is-flex has-background-light p-4">Navigation bar</nav>
+<nav class="is-flex has-background-light p-0">
+  <!-- Tech Club Logo -->
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">
+      <!-- FIX ME: ADD TECH CLUB LOGO -->
+      <img
+        src="https://bulma.io/images/bulma-logo.png"
+        width="112"
+        height="10"
+      />
+    </a>
+  <!-- END Tech Club Logo -->
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item"> Home </a>
+      <a class="navbar-item"> About </a>
+
+      <!-- Projects -->
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link"> Projects</a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item"> Web Development </a>
+          <a class="navbar-item"> Game Development </a>
+        </div>
+      </div>
+      <!-- End Projects -->
+
+      <a class="navbar-item"> Events </a>
+      <a class="navbar-item"> Members </a>
+      <a class="navbar-item"> Contact </a>
+    </div>
+
+    <!-- Join the Club -->
+    <!-- FIX ME: DISCORD SVG? COLOR WHITE -->
+    <!-- FIX ME: MARGIN AROUND ICONS -->
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a
+          href="https://discord.gg/Aub6wpVFW9"
+          class="button is-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Discord
+          <img src="../assets/nav-icons/discord_icon.png" />
+        </a>
+    <div class="navbar-item">
+        <a
+          href="https://valenciacollege.campuslabs.com/engage/organization/valenciatechclub"
+          class="button is-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Join us!
+          <ion-icon name="person-add"></ion-icon>
+        </a>
+        <!-- End Join The Club -->
+      </div>
+    </div>
+  </div>
+</nav>
